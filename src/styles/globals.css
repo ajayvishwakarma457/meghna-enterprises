@@ -1,0 +1,942 @@
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('../../public//images/seedsfeeds-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.login-form-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.header header {
+    background-color: #000 !important;
+}
+
+.login-form-wrapper .error {
+    margin-bottom: 15px;
+}
+
+.login-form-wrapper img {
+    display: block;
+    margin: auto;
+}
+
+.login-form-wrapper .form {
+    padding: 20px 0 0 0;
+}
+
+.login-form-wrapper .form .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+    margin-bottom: 15px !important;
+}
+
+.login-form-wrapper .form .css-17vbkzs-MuiFormControl-root-MuiTextField-root {
+    margin-top: 0 !important;
+}
+
+.login-form-wrapper .form button {
+    width: 100% !important;
+    height: 56px !important;
+    background: #000;
+}
+
+header .css-1t6c9ts {
+    display: flex !important;
+    justify-content: end !important;
+}
+
+header .css-2uchni {
+    display: none;
+}
+
+.dashboard-wrapper,
+.master-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.5);
+}
+
+.dashboard-wrapper>div,
+.master-wrapper>div {
+    margin-top: -10%;
+}
+
+.dashboard-wrapper .css-46bh2p-MuiCardContent-root:last-child,
+.master-wrapper .css-46bh2p-MuiCardContent-root:last-child {
+    padding-bottom: 16px !important;
+}
+
+.dashboard-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root,
+.master-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root,
+.dashboard-wrapper .css-s18byi,
+.master-wrapper .css-s18byi {
+    width: 600px !important;
+    padding: 15px 15px;
+}
+
+.dashboard-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root table,
+.master-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root table {
+    width: 100% !important;
+}
+
+.dashboard-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root table>tr:first-child td,
+.master-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root table>tr:first-child td {
+    width: 50% !important;
+}
+
+.dashboard-wrapper table,
+.master-wrapper table {
+    width: 100% !important;
+}
+
+.master-btn,
+.contract-btn,
+.sellter-btn,
+.buyer-btn {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+}
+
+.p-l-15 {
+    padding-left: 15px !important;
+}
+
+.master-btn:hover,
+.contract-btn:hover,
+.sellter-btn:hover,
+.buyer-btn:hover {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+}
+
+.dashboard-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root table td,
+.master-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root table td,
+.dashboard-wrapper table>tbody>tr:first-child>td,
+.master-wrapper table>tbody>tr:first-child>td {
+    padding: 7px 7px !important;
+    width: 50% !important;
+}
+
+.dashboard-wrapper table>tbody>tr:last-child>td,
+.master-wrapper table>tbody>tr:last-child>td {
+    width: 100% !important;
+    padding: 7px 7px !important;
+}
+
+.dashboard-wrapper table>tbody>tr:last-child>td>button,
+.master-wrapper table>tbody>tr:last-child>td>button {
+    width: 100% !important;
+    height: 150px !important;
+    background-color: #000;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root:hover {
+    background-color: #000;
+}
+
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root,
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover {
+    border: 1px solid #000;
+    color: #000;
+}
+
+.dashboard-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root table button,
+.master-wrapper .css-bhp9pd-MuiPaper-root-MuiCard-root table button {
+    width: 100% !important;
+    height: 150px !important;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.header-content .btn-wrapper {
+    display: flex;
+}
+
+.header-content .btn-wrapper button {
+    width: 100px;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.header-content .btn-wrapper.report > div {
+    display: flex;    
+    margin-right: 15px;
+}
+
+.header-content .btn-wrapper.report > div:last-child {
+    margin-right: 0;
+}
+
+.header-content .btn-wrapper.report > div > div {
+    display: flex;
+    margin-right: 15px;
+}
+
+.header-content .btn-wrapper.report > div > div:last-child {
+    margin-right: 0;
+}
+
+.header-content .btn-wrapper.report button {
+    width: 160px;    
+}
+
+.header-content .btn-wrapper.report button:last-child {
+    margin-right: 0;
+}
+
+
+
+.header-content .btn-wrapper button:first-child, .header-content .btn-wrapper.three-btn button:nth-child(2) {
+    margin-right: 15px;
+}
+
+ 
+.buyer-seller-form-wrapper {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.buyer-seller-form-wrapper.full-width {
+    max-width: 100%;
+}
+
+.full-width-template {
+    max-width: 1440px;
+}
+
+.buyer-seller-form-wrapper .css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    overflow: auto;
+    max-width: none;
+}
+
+.buyer-seller-form-wrapper form,
+.template-form-wrapper form {
+    width: 100%;
+}
+
+
+.buyer-seller-form-wrapper form .buyer-seller-forms-wrapper,
+.buyer-seller-form-wrapper form .template-form-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.buyer-seller-form-wrapper form .buyer-seller-forms-wrapper>div,
+.buyer-seller-form-wrapper form .template-form-wrapper>div {
+    width: 50%;
+}
+
+.buyer-seller-form-wrapper form .template-form-wrapper>div {
+    width: calc(50% - 46px);
+}
+
+.buyer-seller-form-wrapper form .template-form-wrapper>button {
+    margin-left: 15px;
+}
+
+.buyer-seller-form-wrapper form .buyer-seller-forms-wrapper>div:first-child,
+.buyer-seller-form-wrapper form .template-form-wrapper>div:first-child {
+    padding-right: 7px;
+}
+
+.buyer-seller-form-wrapper form .buyer-seller-forms-wrapper>div:last-child,
+.buyer-seller-form-wrapper form .template-form-wrapper>div:last-child {
+    padding-left: 7px;
+}
+
+.buyer-seller-form-wrapper form button,
+.template-form-wrapper form button {
+    height: 56px;
+}
+
+.buyer-seller-form-wrapper form button[type="submit"],
+.template-form-wrapper form button[type="submit"] {
+    height: 56px;
+    background-color: #000;
+}
+
+.buyer-seller-form-wrapper form button[type="submit"]:hover,
+.template-form-wrapper form button[type="submit"]:hover {
+    background-color: #000;
+    opacity: 0.5;
+}
+
+
+
+
+.buyer-seller-form-wrapper form .template-form-wrapper {
+    align-self: center;
+}
+
+.buyer-seller-form-wrapper form .template-form-wrapper {
+    padding: 7px 0;
+    border: 2px solid #cfcfcf;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-top: 15px;
+    background: rgba(207, 207, 207, 0.2);
+}
+
+.template-name-txt {
+    margin-bottom: 0;
+}
+
+.buyer-seller-form-wrapper .template-form-wrapper .css-17vbkzs-MuiFormControl-root-MuiTextField-root {
+    margin: 0 0;
+}
+
+.buyer-seller-form-wrapper .template-form-wrapper button {
+    margin-top: 0 !important;
+}
+
+.template-add-btn-wrapper>div:first-child {
+    width: calc(50% - 60px) !important;
+}
+
+.template-add-btn-wrapper>div:last-child {
+    width: calc(50% + 60px) !important;
+}
+
+.action-btn-wrapper {
+    display: flex;
+    margin-top: 7px;
+}
+
+.action-btn-wrapper>button:nth-child(2) {
+    margin: 0 7px;
+}
+
+.contract-form-wrapper .css-17vbkzs-MuiFormControl-root-MuiTextField-root {
+    margin-top: 0;
+}
+
+.contract-form-wrapper {
+    margin-bottom: 15px;
+}
+
+.contract-form-wrapper>div {
+    width: 50% !important;
+}
+
+.contract-form-wrapper.template>div {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.template-text-on-contract h6 {
+    margin-bottom: -5px;
+}
+
+.contract-form-btn {
+    background: transparent !important;
+    border: 0 !important;
+    padding: 0 0 10px 0px !important;
+}
+
+.contract-form-btn>div {
+    width: 100% !important;
+    padding: 0 0 !important;
+}
+
+.detail-wrapper {
+    border: 1px solid rgba(224, 224, 224, 1);
+    box-sizing: border-box;
+    word-wrap: break-word;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.5);
+}
+
+.detail-wrapper .column {
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.detail-wrapper .column:nth-child(even) {
+    border-left: 1px solid rgba(224, 224, 224, 1);
+}
+
+.detail-wrapper .column:nth-last-child(1),
+.detail-wrapper .column:nth-last-child(2) {
+    border-bottom: 0px solid rgba(224, 224, 224, 1);
+}
+
+/* .contract-detail-wrapper .column:nth-last-child(1),
+.contract-detail-wrapper .column:nth-last-child(2) {
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+} */
+
+.detail-wrapper b,
+.detail-wrapper span {
+    font-size: 14px;
+}
+
+.detail-ul {
+    padding: 0 0 0 15px;
+    margin: 0 0 0 0;
+}
+
+.detail-ul>li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.detail-ul>li:last-child {
+    margin-bottom: 0;
+}
+
+.contract-btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contract-btn-wrapper>div {
+    width: 50%;
+}
+
+.contract-btn-wrapper>div:first-child {
+    padding-right: 7px;
+}
+
+.contract-btn-wrapper>div:last-child {
+    padding-left: 7px;
+}
+
+.template-form-wrapper .remove-btn {
+    position: relative;
+    top: 15px;
+}
+
+.preview-dialogue>div>div {
+    max-width: 800px;
+    width: 800px;
+}
+
+.preview-dialogue .preview-wrapper {
+    border: 1px solid rgba(217, 217, 217, 0.3);
+}
+
+.preview-dialogue .preview-wrapper .header {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.preview-dialogue .preview-wrapper .address {
+    text-align: center;
+    padding: 15px;
+}
+
+.preview-dialogue .preview-wrapper .address p {
+    margin-bottom: 3px;
+}
+
+.preview-dialogue .preview-wrapper .contract-box {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(217, 217, 217, 0.3);
+    padding: 7px 15px;
+}
+
+.preview-dialogue .preview-wrapper .under-paragraph {
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.preview-dialogue .preview-wrapper .under-paragraph p,
+.preview-dialogue .preview-wrapper .footer-subject p {
+    font-size: 13px;
+}
+
+.preview-dialogue .preview-wrapper .footer-subject {
+    background: rgba(217, 217, 217, 0.3);
+    padding: 7px 15px;
+    text-align: center;
+}
+
+.preview-dialogue .preview-wrapper .footer-seed-feed {
+    padding: 7px 15px;
+    text-align: center;
+}
+
+.preview-dialogue .preview-wrapper .footer-buyer-seller {
+    display: flex;
+    padding: 7px 15px;
+    justify-content: space-between;
+}
+
+.template-dropdown {
+    width: 100%;
+}
+
+.detail-btn-wrapper button {
+    width: 180px !important;
+    margin-right: 15px;
+}
+
+.detail-btn-wrapper button:last-child {
+    margin-right: 0;
+}
+
+.circle-loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-btn-wrapper>button {
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.action-btn-wrapper>button:hover {
+    background-color: transparent;
+}
+
+.add-heading {
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.preview-pop-ok-btn {
+    padding: 0 15px 15px 0;
+    width: 100%;
+    margin: auto;
+    text-align: right;
+}
+
+.preview-pop-ok-btn button {
+    width: 200px;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.three-companies>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-companies>div>div {
+    background-color: #000;
+    display: flex;
+    width: 350px;
+    min-height: 250px;
+    margin: 15px 15px;
+    cursor: pointer;
+}
+
+.three-companies>div>img[src$=".svg"],
+.three-companies>div>img[src$=".png"] {
+    width: 300px;
+}
+
+.autocomplete-email {
+    padding: 15px 0 5px 0;
+}
+
+.multiline {
+    padding: 0 0 15px 0;
+}
+
+.list-wrapper {
+    background: #fff;
+}
+
+/* .list-wrapper .css-n3fyjk-MuiDataGrid-root .MuiDataGrid-container--top [role=row] {
+    background-color: #000 !important;
+    color: #fff;
+} */
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root:hover {
+    text-decoration: underline;
+}
+
+.btn-wrapper {
+    padding: 15px 0;
+}
+
+pre {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    text-transform: uppercase;
+}
+
+.adornmentPrefix {
+    margin-top: -21px;
+}
+
+.party-select {
+    margin-top: 15px;
+}
+
+.billing-form .MuiListItem-root {
+    display: block;
+}
+
+.billing-contract-form {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.billing-contract-form>button {
+    margin-top: 7px;
+    background: transparent;
+    outline: 0;
+    border: 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+    min-width: 50px;
+    cursor: pointer;
+}
+
+.billing-contract-form .MuiTextField-root {
+    margin-right: 10px;
+}
+
+.billing-contract-form .MuiTextField-root:last-child {
+    margin-right: 0;
+}
+
+.net-amount-wrapper,
+.gross-amount-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    padding-right: 15px;
+}
+
+.net-amount-wrapper .billing-tax-select,
+.gross-amount-wrapper .billing-tax-select {
+    width: 120px;
+}
+
+.net-amount-wrapper>div,
+.gross-amount-wrapper>div {
+    display: flex;
+    align-items: center;
+}
+
+.net-amount-wrapper>div>.label,
+.gross-amount-wrapper>div>.label {
+    margin-right: 15px;
+}
+
+.gross-amount-wrapper>div:first-child {
+    margin-right: 50px;
+}
+
+.no-contract-found {
+    padding: 0 15px;
+}
+
+.no-contract-found article {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.preview-dialogue-content .preview-wrapper {
+    border: 0;
+}
+
+.preview-dialogue-content {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.billing-preview-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+}
+
+.billing-preview-header>div {
+    padding: 10px;
+}
+
+.billing-preview-header>div:last-child {
+    padding: 10px 10px 10px 50px;
+    border-left: 1px solid #dddddd;
+}
+
+.invoice-details {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.invoice-details>p {
+    margin: 0 0 5px 0;
+}
+
+.invoice-details>div {
+    margin-left: 30px;
+    line-height: 20px;
+    font-size: 12px;
+}
+
+.invoice-details>div>p {
+    margin: 0;
+    width: 300px;
+}
+
+.invoice-details>div>div {
+    width: 400px;
+    margin-top: 15px;
+}
+
+.invoice-details>div>div>div {
+    display: flex;
+}
+
+.invoice-details>div>div>div>p:first-child {
+    margin: 0;
+    width: 200px;
+}
+
+.invoice-details>div>div>div>p:last-child {
+    margin: 0;
+}
+
+.invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.invoice-table>thead>tr>th {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+.invoice-table>tbody {
+    border: 1px solid #ddd;
+}
+
+.invoice-table>tbody>tr>td {
+    padding: 10px 10px;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.amount-in-words-td {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.amount-in-words-td>span {
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 0 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.amount-in-words-td>p {
+    padding: 0 10px;
+}
+
+.totals {
+    vertical-align: top;
+    text-align: right;
+}
+
+.totals>table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.totals>table>tbody>tr>td {
+    width: 50%;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px 10px;
+}
+
+.totals-amount {
+    border-right: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.totals-amount>table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.totals-amount>table>tbody>tr>td {
+    width: 50%;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 10px;
+    text-align: right;
+}
+
+.additional-info {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+}
+
+.additional-info>div {
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+    line-height: 20px;
+    padding: 10px 10px;
+}
+
+.additional-info>div>div {
+    display: flex;
+}
+
+.additional-info>div>div>span {
+    width: 100px;
+}
+
+.signature {
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    text-align: right;
+    vertical-align: top;
+    padding: 50px 10px 10px 10px;
+}
+
+.signature>b {
+    font-size: 16px;
+}
+
+.signature>img {
+    width: 100px;
+    height: 31px;
+    margin: 15px 0;
+}
+
+.signature>span {
+    font-size: 14px;
+}
+
+.bill-no-date-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    margin-bottom: 20px;
+}
+
+.bill-no-date-wrapper>div:first-child {
+    padding: 10px;
+}
+
+.bill-no-date-wrapper>div:last-child {
+    padding: 10px 10px 10px 50px;
+    border-left: 1px solid #dddddd;
+}
+
+.company-info {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.company-name>p {
+    margin: 0 0 5px 0;
+}
+
+.company-address {
+    margin-left: 30px;
+    line-height: 20px;
+    font-size: 12px;
+    width: 330px;
+}
+
+.gst-info {
+    line-height: 10px;
+}
+
+.info-row {
+    display: flex;
+}
+
+.info-row>p:first-child {
+    width: 200px;
+}
+
+.info-row>p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.billing-preview-pop>button {
+    margin-right: 15px;
+}
+
+.billing-reporting-header {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.billing-reporting-header-year {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.filter-btn {
+    background-color: #000 !important;
+    color: #fff !important;
+}

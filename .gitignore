@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Production
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm/
+
+# dotenv environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Typescript cache
+*.tsbuildinfo
+
+# coverage reports
+coverage/
+
+# test output
+jest-test-results.json
+
+# Firebase functions
+functions/lib/
+functions/node_modules/
+
+# static export directory
+out/
+
+# vercel
+.vercel/
+
+
+# notest
+/notes
+
+# env
+.env*
