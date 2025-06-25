@@ -97,3 +97,9 @@ npm install
 
 # Run the app
 npm run dev
+
+
+## 📬 Contact
+
+**Author:** Ajay M Vishwakarma  
+**Email:** ajayvishwakarma457@gmail.com
