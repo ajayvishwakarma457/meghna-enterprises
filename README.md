@@ -83,11 +83,6 @@ This application is deployed on **AWS**, leveraging:
 | ![Seller List](screenshot/29.png) | Billing management edit |
 | ![Seller List](screenshot/30.png) | Billing management report |
 
-
-👉 **Note:** Replace `screenshots/xyz.png` with actual image links or GitHub repo paths where you upload these screenshots.
-
----
-
 ## 🛠️ Setup & Installation
 
 ```bash
