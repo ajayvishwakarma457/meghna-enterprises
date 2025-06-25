@@ -61,9 +61,28 @@ This application is deployed on **AWS**, leveraging:
 |------------|-------------|
 | ![Login](screenshot/2.png) | Login page |
 | ![Dashboard](screenshot/3.png) | Main dashboard with navigation |
+| ![Dashboard](screenshot/4.png) | Master Page with navigation |
 | ![Seller List](screenshot/5.png) | Seller management list |
-| ![Contract Detail](screenshot/23.png) | Contract detailed view |
-| ![Billing Report](screenshot/31.png) | Billing report view |
+| ![Seller List](screenshot/7.png) | Seller management create |
+| ![Seller List](screenshot/8.png) | Seller management edit |
+| ![Seller List](screenshot/9.png) | Seller management detail |
+| ![Seller List](screenshot/10.png) | Buyer management list |
+| ![Seller List](screenshot/12.png) | Buyer management edit |
+| ![Seller List](screenshot/13.png) | Buyer management create |
+| ![Seller List](screenshot/14.png) | Template management list |
+| ![Seller List](screenshot/15.png) | Template management create |
+| ![Seller List](screenshot/16.png) | Template management edit |
+| ![Seller List](screenshot/18.png) | Template management detail |
+| ![Seller List](screenshot/19.png) | Contract management list |
+| ![Seller List](screenshot/20.png) | Contract management create |
+| ![Seller List](screenshot/21.png) | Contract management edit |
+| ![Seller List](screenshot/23.png) | Contract management detail |
+| ![Seller List](screenshot/25.png) | Contract management preview |
+| ![Seller List](screenshot/27.png) | Billing management list |
+| ![Seller List](screenshot/28.png) | Billing management create |
+| ![Seller List](screenshot/29.png) | Billing management edit |
+| ![Seller List](screenshot/30.png) | Billing management report |
+
 
 👉 **Note:** Replace `screenshots/xyz.png` with actual image links or GitHub repo paths where you upload these screenshots.
 
